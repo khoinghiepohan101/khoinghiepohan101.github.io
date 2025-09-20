@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Khởi nghiệp ở Hàn 101</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="assets/img/logo.png" alt="" class="nav__logo-img">
+                    <span class="nav__logo-text">The Viet Alunet</span>
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Trang chủ</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">Công nghệ</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#trick" class="nav__link">Tác giả</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#new" class="nav__link">Ấn phẩm</a>
+                        </li>
+
+                        <a href="https://dilamohan101.github.io/read-book/intro.html" 
+                           class="button button--ghost" 
+                           target="_blank" 
+                           rel="noopener noreferrer">
+                           Đọc sách
+                        </a>
+
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home container" id="home">
+                <div class="swiper home-swiper">
+                    <div class="swiper-wrapper">
+                        <!-- HOME SLIDER 1 -->
+                        <section class="swiper-slide">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/img/home1-img.png" alt="" class="home__img">
+                                </div>
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">Khởi nghiệp ở Hàn 101</h3>
+                                    <h1 class="home__title">Kinh nghiệm <br> từ cựu <br> sinh viên</h1>
+                                    <p class="home__description">Được biên soạn và phát triển bởi The Viet Alunet cộng đồng kết nối cựu sinh viên - sinh viên người Việt các trường đại học lớn ở Việt Nam và Hàn Quốc.
+                                    </p>
+
+                                    <div class="home__buttons">
+                                        <a href="https://dilamohan101.github.io/read-book/intro.html" 
+                                           class="button" 
+                                           target="_blank" 
+                                           rel="noopener noreferrer">
+                                           Đọc ngay
+                                        </a>
+
+                                        <a href="https://thevietalunet.wixsite.com/home" class="button--link button--flex">Về Alunet <i class='bx bx-right-arrow-alt button__icon'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            
+            <!--==================== CATEGORY ====================-->
+            <section class="section category">
+                <h2 class="section__title">Các loại hình công ty</h2>
+
+                <div class="category__container container grid">
+                    <div class="category__data">
+                        <div class="category__img-wrapper">
+                            <img src="assets/img/category1-img.png" alt="" class="category__img">
+                        </div>
+                        <h3 class="category__title">Startup công nghệ</h3>
+                        <p class="category__description">Tập trung vào công nghệ mới như AI, fintech, edtech hoặc thương mại điện tử. Có tốc độ tăng trưởng nhanh, thích hợp cho những bạn đam mê sản phẩm sáng tạo, muốn tạo ra giá trị đột phá.</p>
+                    </div>
+
+                    <div class="category__data">
+                        <div class="category__img-wrapper">
+                            <img src="assets/img/category2-img.png" alt="" class="category__img">
+                        </div>
+                        <h3 class="category__title">Startup dịch vụ</h3>
+                        <p class="category__description">Cung cấp dịch vụ sáng tạo trong các lĩnh vực như logistics, làm đẹp, giáo dục, du lịch, chăm sóc sức khỏe… Thường bắt đầu từ nhu cầu thực tế của thị trường và phát triển dựa trên uy tín – chất lượng dịch vụ.</p>
+                    </div>
+
+                    <div class="category__data">
+                        <div class="category__img-wrapper">
+                            <img src="assets/img/category3-img.png" alt="" class="category__img">
+                        </div>
+                        <h3 class="category__title">Startup xã hội</h3>
+                        <p class="category__description">Hướng tới giải quyết vấn đề cộng đồng, môi trường, giáo dục hoặc phúc lợi xã hội. Loại hình này phù hợp cho người vừa muốn kinh doanh vừa muốn đóng góp giá trị cho xã hội.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="section about" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Công nghệ sách<br> trực tuyến</h2>
+                        <p class="about__description">Sử dụng công nghệ sách Jupyterbook giúp người đọc linh hoạt và tiện lợi truy cập mọi lúc mọi nơi, dễ dàng tra cứu và tìm kiếm.
+                        </p>
+                        <a href="https://jupyterbook.org/en/stable/intro.html" class="button">Về Jupyterbook</a>
+                    </div>
+
+                    <img src="assets/img/about-img.png" alt="" class="about__img">
+                </div>
+            </section>
+
+            <!--==================== TRICK OR TREAT ====================-->
+            <section class="section trick" id="trick">
+                <h2 class="section__title">Cựu sinh viên tham gia đóng góp</h2>
+
+                <div class="trick__container container grid">
+                    <div class="trick__content">
+                        <img src="assets/img/trick-treat1-img.png" alt="" class="trick__img">
+                        <h3 class="trick__title">Nguyễn Thị A</h3>
+                        <span class="trick__subtitle">Cựu sinh viên Hàn Quốc học, Đại học Hà Nội</span>
+                        <span class="trick__price">Founder, K-Beauty Connect (nền tảng phân phối mỹ phẩm Hàn cho thị trường Việt)</span>
+                        <button class="button trick__button">
+                            <i class='bx bx-cart-alt trick__icon'></i>
+                        </button>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/trick-treat4-img.png" alt="" class="trick__img">
+                        <h3 class="trick__title">Nguyễn Văn B</h3>
+                        <span class="trick__subtitle">Cựu sinh viên Kế toán, Học viện Ngân hàng Hà Nội</span>
+                        <span class="trick__price">Co-founder, FinGrow (startup fintech hỗ trợ du học sinh quản lý tài chính)</span>
+                        <button class="button trick__button">
+                            <i class='bx bx-cart-alt trick__icon'></i>
+                        </button>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/trick-treat3-img.png" alt="" class="trick__img">
+                        <h3 class="trick__title">Nguyễn Thị C</h3>
+                        <span class="trick__subtitle">Cựu sinh viên Kinh doanh Quốc tế, Đại học Ngoại Thương</span>
+                        <span class="trick__price">Head of Sales, HanTrade Global (startup thương mại quốc tế Hàn – Việt)</span>
+                        <button class="button trick__button">
+                            <i class='bx bx-cart-alt trick__icon'></i>
+                        </button>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/trick-treat5-img.png" alt="" class="trick__img">
+                        <h3 class="trick__title">Nguyễn Văn D</h3>
+                        <span class="trick__subtitle">Cựu sinh viên Điện tử Viễn thông, Đại học Công Nghệ – ĐHQGHN</span>
+                        <span class="trick__price">CEO, MedVision Korea (startup ứng dụng AI trong chẩn đoán y tế)</span>
+                        <button class="button trick__button">
+                            <i class='bx bx-cart-alt trick__icon'></i>
+                        </button>
+                    </div>
+                    
+                    <div class="trick__content">
+                        <img src="assets/img/trick-treat6-img.png" alt="" class="trick__img">
+                        <h3 class="trick__title">Nguyễn Thị E</h3>
+                        <span class="trick__subtitle">Cựu sinh viên Marketing, Kinh tế Quốc dân</span>
+                        <span class="trick__price">Founder, K-MarketGo (startup marketing kỹ thuật số cho SMEs Hàn Quốc)</span>
+                        <button class="button trick__button">
+                            <i class='bx bx-cart-alt trick__icon'></i>
+                        </button>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/trick-treat2-img.png" alt="" class="trick__img">
+                        <h3 class="trick__title">Nguyễn Văn F</h3>
+                        <span class="trick__subtitle">Cựu sinh viên ngành marketing Kinh Tế Quốc Dân</span>
+                        <span class="trick__price">Co-founder & CTO, K-LogiTech Startup (giải pháp AI cho logistics xuyên biên giới)</span>
+                        <button class="button trick__button">
+                            <i class='bx bx-cart-alt trick__icon'></i>
+                        </button>
+                    </div>
+
+                </div>
+            </section>
+            
+            <!--==================== DISCOUNT ====================-->
+            <section class="section discount">
+                <div class="discount__container container grid">
+                    <div class="discount__data">
+                        <h2 class="discount__title">Tham gia cùng <br> The Viet Alunet</h2>
+                        <a href="https://thevietalunet.wordpress.com/" class="button">Tham gia</a>
+                    </div>
+
+                    <img src="assets/img/discount-img.png" alt="" class="discount__img">
+                </div>
+            </section>
+
+            <!--==================== NEW ARRIVALS ====================-->
+            <section class="section new" id="new">
+                <h2 class="section__title">Các ấn phẩm khác</h2>
+
+                <div class="new__container container">
+                    <div class="swiper new-swiper">
+                        <div class="swiper-wrapper">
+
+                        	<!--2-->
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">New</div>
+                                <img src="assets/img/new2-img.png" alt="" class="new__img">
+                                <h3 class="new__title">Đi làm ở Hàn 101</h3>
+                                <span class="new__subtitle">Hướng dẫn</span>
+                                
+                                <div class="new__prices">
+                                    <span class="new__price">Đang hoàn thiện...</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-right-arrow-alt new__icon'></i>
+                                </button>
+                            </div>
+
+                            <!--3-->
+                        	<div class="new__content swiper-slide">
+                                <div class="new__tag">New</div>
+                                <img src="assets/img/new3-img.png" alt="" class="new__img">
+                                <h3 class="new__title">Khởi nghiệp ở Hàn 101</h3>
+                                <span class="new__subtitle">Trải nghiệm</span>
+        
+                                <div class="new__prices">
+                                    <span class="new__price">Đang hoàn thiện...</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-right-arrow-alt new__icon'></i>
+                                </button>
+                            </div>
+
+                            <!--1-->
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">New</div>
+                                <img src="assets/img/new1-img.png" alt="" class="new__img">
+                                <h3 class="new__title">Học bổng Hàn Quốc 101</h3>
+                                <span class="new__subtitle">Kinh nghiệm</span>
+        
+                                <div class="new__prices">
+                                    <span class="new__price">Đang hoàn thiện...</span>
+                                </div>
+                                <a href="https://hocbonghanquoc101.github.io/read-book/intro.html" target="_blank" class="button new__button">
+                                    <i class='bx bx-right-arrow-alt new__icon'></i>
+                                </a>                                
+                            </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== OUR NEWSLETTER ====================-->
+            <section class="section newsletter">
+                <div class="newsletter__container container">
+                    <h2 class="section__title">Đăng kí nhận tin</h2>
+                    <p class="newsletter__description">
+                        Cập nhật tin tức mới từ các ấn phẩm của Alunet.
+                    </p>
+
+                    <form action="" class="newsletter__form">
+                        <input type="text" placeholder="Email của bạn" class="newsletter__input">
+                        <button class="button">
+                            Đăng kí
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+            <footer class="footer section">
+                <div class="footer__container container grid">
+                    <div class="footer__content">
+                        <a href="#" class="footer__logo">
+                            <img src="assets/img/logo.png" alt="" class="footer__logo-img">
+                            The Viet Alunet
+                        </a>
+
+                        <p class="footer__description">Kết nối trí thức Việt <br> toàn cầu.</p>
+                        
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/page.thevietalunet" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-facebook'></i>
+                            </a>
+                            <a href="https://www.instagram.com/thevietalunet" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-instagram-alt' ></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-twitter' ></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="footer__content">
+                        <h3 class="footer__title">Về Alunet</h3>
+                        
+                        <ul class="footer__links">
+                            <li>
+                                <a href="https://thevietalunet.wixsite.com/home/ve-alunet" class="footer__link">Giới thiệu</a>
+                            </li>
+                            <li>
+                                <a href="https://thevietalunet.wixsite.com/home" class="footer__link">Tầm nhìn</a>
+                            </li>
+                            <li>
+                                <a href="https://thevietalunet.wixsite.com/home" class="footer__link">Sứ mệnh</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__content">
+                        <h3 class="footer__title">Các ấn phẩm</h3>
+                        
+                        <ul class="footer__links">
+                            <li>
+                                <a href="https://hocbonghanquoc101.github.io/" class="footer__link">Học bổng Hàn Quốc 101</a>
+                            </li>
+                            <li>
+                                <a href="https://dilamohan101.github.io/" class="footer__link">Khởi nghiệp ở Hàn 101</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Nghiên cứu khoa học 101</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__content">
+                        <h3 class="footer__title">Tham gia</h3>
+                        
+                        <ul class="footer__links">
+                            <li>
+                                <a href="https://thevietalunet.wixsite.com/home" class="footer__link">Thành viên</a>
+                            </li>
+                            <li>
+                                <a href="https://thevietalunet.wixsite.com/home" class="footer__link">Cộng tác viên</a>
+                            </li>
+                            <li>
+                                <a href="https://thevietalunet.wixsite.com/home" class="footer__link">Nhà tài trợ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <span class="footer__copy">&#169; 2025 The Viet ALunet. All rights reserved. </span>
+
+                <img src="assets/img/footer1-img.png" alt="" class="footer__img-one">
+                <img src="assets/img/footer2-img.png" alt="" class="footer__img-two">
+            </footer>
+
+            <!--=============== SCROLL UP ===============-->
+            <a href="#" class="scrollup" id="scroll-up">
+                <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+            </a>
+        
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
